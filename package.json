@@ -14,7 +14,8 @@
     "aws": "gulp publish",
     "gh-pages": "npm run build && npm run docs && mv api-docs build && gulp gh-pages",
     "version": "npm run build && git add -A dist",
-    "postversion": "npm run gh-pages"
+    "postversion": "npm run gh-pages",
+    "deploy": "npm run build && rsync -rav --progress -e 'ssh -i ~/.ssh/wola1privatekey.pem' ~/Digital/Chartbuilder/build/* ubuntu@54.236.118.197:interactives/chartbuilder/"
   },
   "repository": {
     "type": "git",
