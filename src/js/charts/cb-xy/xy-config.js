@@ -36,7 +36,7 @@ var display = {
 	labelXMargin: "0.6em",
 	labelTextMargin: "0.3em",
 	labelRowHeight: "1.2em",
-	afterTitle: "1.4em",
+	afterTitle: "1.8em",
 	afterLegend: "1em",
 	blockerRectOffset: "0.2em",
 	lineMarkThreshold: 10, // render marks (dots) on lines if data < N
