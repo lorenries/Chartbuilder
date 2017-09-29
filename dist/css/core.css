@@ -631,7 +631,7 @@ span.step-number {
 }
 .series-label-input input:hover,
 .series-label-input input:focus {
-  background-color: #fff;
+  background-color: #fbfaf9;
   -webkit-transition: padding 0.1s ease-in;
   transition: padding 0.1s ease-in;
   padding: 0 0 0 10px;
@@ -859,7 +859,7 @@ div.renderer-wrapper {
   padding: 0;
 }
 svg.renderer-svg {
-  fill: #fff;
+  fill: #fbfaf9;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
 }
@@ -868,7 +868,7 @@ svg.renderer-svg tspan {
   line-height: 1em;
 }
 svg .svg-background {
-  fill: #fff;
+  fill: #fbfaf9;
 }
 .em-size-wrapper {
   width: 100%;
@@ -998,10 +998,10 @@ svg .svg-background {
   fill: #666;
 }
 .concealer-label rect {
-  fill: #fff;
+  fill: #fbfaf9;
 }
 .blocker-rect {
-  fill: #fff;
+  fill: #fbfaf9;
 }
 .series-label {
   font-size: 20px;
